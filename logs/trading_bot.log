@@ -1,0 +1,48 @@
+2026-07-06 19:44:28 | INFO     | trading_bot.orders | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-07-06 19:44:28 | DEBUG    | trading_bot.client | REQUEST POST https://demo-fapi.binance.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1783347268218, 'recvWindow': 5000, 'signature': '420634...redacted'}
+2026-07-06 19:44:28 | DEBUG    | trading_bot.client | RESPONSE POST https://demo-fapi.binance.com/fapi/v1/order status=401 body={"code":-2014,"msg":"API-key format invalid."}
+2026-07-06 19:44:28 | ERROR    | trading_bot.client | API ERROR POST https://demo-fapi.binance.com/fapi/v1/order -> HTTP 401 code=-2014 msg=API-key format invalid.
+2026-07-06 19:44:28 | ERROR    | trading_bot.orders | Order rejected by Binance: Binance API error -2014 (HTTP 401): API-key format invalid.
+2026-07-06 19:46:21 | INFO     | trading_bot.orders | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-07-06 19:46:21 | DEBUG    | trading_bot.client | REQUEST POST https://demo-fapi.binance.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1783347381851, 'recvWindow': 5000, 'signature': 'e6082b...redacted'}
+2026-07-06 19:46:22 | DEBUG    | trading_bot.client | RESPONSE POST https://demo-fapi.binance.com/fapi/v1/order status=401 body={"code":-2014,"msg":"API-key format invalid."}
+2026-07-06 19:46:22 | ERROR    | trading_bot.client | API ERROR POST https://demo-fapi.binance.com/fapi/v1/order -> HTTP 401 code=-2014 msg=API-key format invalid.
+2026-07-06 19:46:22 | ERROR    | trading_bot.orders | Order rejected by Binance: Binance API error -2014 (HTTP 401): API-key format invalid.
+2026-07-06 19:47:04 | INFO     | trading_bot.orders | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-07-06 19:47:04 | DEBUG    | trading_bot.client | REQUEST POST https://demo-fapi.binance.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1783347424416, 'recvWindow': 5000, 'signature': 'b8fc12...redacted'}
+2026-07-06 19:47:05 | DEBUG    | trading_bot.client | RESPONSE POST https://demo-fapi.binance.com/fapi/v1/order status=401 body={"code":-2014,"msg":"API-key format invalid."}
+2026-07-06 19:47:05 | ERROR    | trading_bot.client | API ERROR POST https://demo-fapi.binance.com/fapi/v1/order -> HTTP 401 code=-2014 msg=API-key format invalid.
+2026-07-06 19:47:05 | ERROR    | trading_bot.orders | Order rejected by Binance: Binance API error -2014 (HTTP 401): API-key format invalid.
+2026-07-06 19:47:37 | INFO     | trading_bot.orders | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-07-06 19:47:37 | DEBUG    | trading_bot.client | REQUEST POST https://demo-fapi.binance.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1783347457232, 'recvWindow': 5000, 'signature': '37d040...redacted'}
+2026-07-06 19:47:37 | DEBUG    | trading_bot.client | RESPONSE POST https://demo-fapi.binance.com/fapi/v1/order status=401 body={"code":-2014,"msg":"API-key format invalid."}
+2026-07-06 19:47:37 | ERROR    | trading_bot.client | API ERROR POST https://demo-fapi.binance.com/fapi/v1/order -> HTTP 401 code=-2014 msg=API-key format invalid.
+2026-07-06 19:47:37 | ERROR    | trading_bot.orders | Order rejected by Binance: Binance API error -2014 (HTTP 401): API-key format invalid.
+2026-07-06 20:03:06 | INFO     | trading_bot.orders | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-07-06 20:03:06 | DEBUG    | trading_bot.client | REQUEST POST https://demo-fapi.binance.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1783348386309, 'recvWindow': 5000, 'signature': '6dd709...redacted'}
+2026-07-06 20:03:07 | DEBUG    | trading_bot.client | RESPONSE POST https://demo-fapi.binance.com/fapi/v1/order status=401 body={"code":-2014,"msg":"API-key format invalid."}
+2026-07-06 20:03:07 | ERROR    | trading_bot.client | API ERROR POST https://demo-fapi.binance.com/fapi/v1/order -> HTTP 401 code=-2014 msg=API-key format invalid.
+2026-07-06 20:03:07 | ERROR    | trading_bot.orders | Order rejected by Binance: Binance API error -2014 (HTTP 401): API-key format invalid.
+2026-07-06 20:03:58 | INFO     | trading_bot.orders | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-07-06 20:03:58 | DEBUG    | trading_bot.client | REQUEST POST https://demo-fapi.binance.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1783348438637, 'recvWindow': 5000, 'signature': '162465...redacted'}
+2026-07-06 20:03:59 | DEBUG    | trading_bot.client | RESPONSE POST https://demo-fapi.binance.com/fapi/v1/order status=401 body={"code":-2014,"msg":"API-key format invalid."}
+2026-07-06 20:03:59 | ERROR    | trading_bot.client | API ERROR POST https://demo-fapi.binance.com/fapi/v1/order -> HTTP 401 code=-2014 msg=API-key format invalid.
+2026-07-06 20:03:59 | ERROR    | trading_bot.orders | Order rejected by Binance: Binance API error -2014 (HTTP 401): API-key format invalid.
+2026-07-06 20:10:41 | ERROR    | trading_bot.cli | Configuration error: BINANCE_API_KEY looks like a placeholder. Generate a real Binance Demo Trading API key and paste it into the .env file.
+2026-07-06 20:11:51 | ERROR    | trading_bot.cli | Configuration error: BINANCE_API_KEY looks like a placeholder. Generate a real Binance Demo Trading API key and paste it into the .env file.
+2026-07-06 20:13:42 | ERROR    | trading_bot.cli | Configuration error: BINANCE_API_KEY should be a generated Binance API key containing only letters and numbers.
+2026-07-06 20:14:44 | ERROR    | trading_bot.cli | Configuration error: BINANCE_API_KEY should be a generated Binance API key containing only letters and numbers.
+2026-07-06 20:17:00 | ERROR    | trading_bot.cli | Configuration error: BINANCE_API_KEY should be a generated Binance API key containing only letters and numbers.
+2026-07-06 20:37:23 | INFO     | trading_bot.orders | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-07-06 20:37:23 | DEBUG    | trading_bot.client | REQUEST POST https://demo-fapi.binance.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1783350443152, 'recvWindow': 5000, 'signature': '24a6ff...redacted'}
+2026-07-06 20:37:23 | DEBUG    | trading_bot.client | RESPONSE POST https://demo-fapi.binance.com/fapi/v1/order status=400 body={"code":-1021,"msg":"Timestamp for this request is outside of the recvWindow."}
+2026-07-06 20:37:23 | ERROR    | trading_bot.client | API ERROR POST https://demo-fapi.binance.com/fapi/v1/order -> HTTP 400 code=-1021 msg=Timestamp for this request is outside of the recvWindow.
+2026-07-06 20:37:23 | ERROR    | trading_bot.orders | Order rejected by Binance: Binance API error -1021 (HTTP 400): Timestamp for this request is outside of the recvWindow.
+2026-07-06 20:38:14 | INFO     | trading_bot.orders | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-07-06 20:38:15 | DEBUG    | trading_bot.client | REQUEST POST https://demo-fapi.binance.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1783350603138, 'recvWindow': 5000, 'signature': '77b600...redacted'}
+2026-07-06 20:38:15 | DEBUG    | trading_bot.client | RESPONSE POST https://demo-fapi.binance.com/fapi/v1/order status=200 body={"orderId":19599326329,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"rC9tBZzeFDENfeWL6MZ1nu","price":"0.00","origQty":"0.0100","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1783350603279}
+2026-07-06 20:38:15 | INFO     | trading_bot.orders | Order placed successfully: orderId=19599326329 status=NEW
+2026-07-06 20:44:52 | INFO     | trading_bot.orders | Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-07-06 20:44:52 | DEBUG    | trading_bot.client | REQUEST POST https://demo-fapi.binance.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 60000.0, 'timeInForce': 'GTC', 'timestamp': 1783351000582, 'recvWindow': 5000, 'signature': '2fd767...redacted'}
+2026-07-06 20:44:53 | DEBUG    | trading_bot.client | RESPONSE POST https://demo-fapi.binance.com/fapi/v1/order status=200 body={"orderId":19600542925,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"T8hrcHg8FPvADckxI6LlRN","price":"60000.00","origQty":"0.0100","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1783351000719}
+2026-07-06 20:44:53 | INFO     | trading_bot.orders | Order placed successfully: orderId=19600542925 status=NEW
